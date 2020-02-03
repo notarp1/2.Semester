@@ -10,57 +10,57 @@ public interface IComplex {
 
 
     // return abs/modulus/magnitude
-    public double abs();
+    double abs();
 
     // return angle/phase/argument, normalized to be between -pi and pi
-    public double phase();
+    double phase();
 
     // return a new Complex object whose value is (this + b)
-    public Complex plus(Complex b);
+    IComplex plus(IComplex b);
 
     // return a new Complex object whose value is (this - b)
-    public Complex minus(Complex b);
+    IComplex minus(IComplex b);
 
     // return a new Complex object whose value is (this * b)
-    public Complex times(Complex b);
+    IComplex times(IComplex b);
 
     // return a new object whose value is (this * alpha)
-    public Complex scale(double alpha);
+    IComplex scale(double alpha);
 
     // return a new Complex object whose value is the conjugate of this
-    public Complex conjugate();
+    IComplex conjugate();
 
     // return a new Complex object whose value is the reciprocal of this
-    public Complex reciprocal();
+    IComplex reciprocal();
 
     // return the real or imaginary part
-    public double re();
-    public double im();
+    double re();
+    double im();
 
     // return a / b
-    public Complex divides(Complex b);
+    IComplex divides(IComplex b);
     // return a new Complex object whose value is the complex exponential of this
-    public Complex exp();
+    IComplex exp();
 
     // return a new Complex object whose value is the complex sine of this
-    public Complex sin();
+    IComplex sin();
 
     // return a new Complex object whose value is the complex cosine of this
-    public Complex cos();
+    IComplex cos();
 
     // return a new Complex object whose value is the complex tangent of this
-    public Complex tan();
+    IComplex tan();
 
 
 
     // a static version of plus
-    public Complex plus(Complex a, Complex b);
+    IComplex plus(IComplex a, IComplex b);
 
     // See Section 3.3.
-    public boolean equals(Object x);
+    boolean equals(Object x);
 
     // See Section 3.3.
-    public int hashCode();
+    int hashCode();
 
 
 }
