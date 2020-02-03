@@ -1,12 +1,12 @@
-import java.util.Objects;
+
 
 public interface IComplex {
 
-
+    double re = 0;   // the real part
+    double im = 0;   // the imaginary part
 
     // return a string representation of the invoking Complex object
     String toString();
-
 
 
     // return abs/modulus/magnitude
@@ -69,4 +69,4 @@ public interface IComplex {
 
 
 
-}
+
