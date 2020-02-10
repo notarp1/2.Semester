@@ -1,6 +1,10 @@
+package ComplexOpgave;
+
+import ComplexOpgave.IComplex;
+
 import java.util.Objects;
 
-public class Complex implements  IComplex{
+public class Complex implements IComplex {
     private final double re;   // the real part
     private final double im;   // the imaginary part
 

@@ -1,3 +1,5 @@
+package Stak;
+
 public interface Stak {
 
     //Indsæt element = 'push'

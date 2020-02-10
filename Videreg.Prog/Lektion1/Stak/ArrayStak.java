@@ -1,3 +1,5 @@
+package Stak;
+
 public class ArrayStak implements Stak {
 
 
