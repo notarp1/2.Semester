@@ -1,0 +1,20 @@
+der anvendes en PC som kører windows 10, f.eks. en winbar maskine
+installer java jdk 8.xxx. f. eks. winbar versionen: 1.8.0.111 eller se8U111 64bit
+installer InteriJ ver. 2019.2.1
+installer Git ver. 2.23.0 64bit
+hent repositoriet:
+    https://github.com/diplomit-dtu/02324_F2020_1_to_4.git
+Tast Ctrl+Alt+Shift S for at åbne Project Structure
+Under Project Settings, Vælg Project
+Under Project, Vælg Project SDK,
+Denne sættes til at peger på java 8.xx (det skal være sdk,jdk og ikke jre)
+tast OK
+
+Tast xxxx for at åbne Run/Debug Confifgurations, kontroller af jre er sat til java 8
+
+,,
+
+
+
+
+
