@@ -4,7 +4,7 @@ import data.IData;
 import data.DemoData;
 import data.DemoDataArray;
 
-public class Main {
+/*public class Main {
     public static void main(String[]  args) {
         boolean ListAllowed = false;
         IData data;
@@ -18,4 +18,4 @@ public class Main {
             ui.showMenu();
         }
     }
-}
+} */
