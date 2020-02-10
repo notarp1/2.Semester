@@ -9,8 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Videreg.Prog./Lektion1/Stak" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Algoritmer/Lektion 1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Videreg.Prog/Lektion1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Videreg.Prog/Lektion2/Simpel2LagsModel/Data" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
