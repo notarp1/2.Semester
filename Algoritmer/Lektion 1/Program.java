@@ -23,25 +23,24 @@ public class Program {
     }
 
     public static void main(String[] args) {
-        int[] tal = {2,1,3,2,3,11,1,5,7,10};
-        it(tal, 0,9);
+        int[] tal = {2,1,3,7,3,1,1,5,7,10};
+        it(tal);
 
     }
 
-    static int it(int A[], int i, int j) {
+    static int it(int A[]) {
 
         boolean max = true;
 
+        int i = 0;
+        int j = A.length;
 
-
-        //int m = ((i + j) / 2);
-        int m = 4;
+        int m = ((i + j) / 2);
 
         while (max) {
 
 
-            if (A[m] >= A[m - 1] && A[m] >= A[m + 1]) {
-
+            if (A[m] >= A[m - 1] || A[m] >= A[m + 1]) {
 
                 max = false;
 
@@ -54,6 +53,7 @@ public class Program {
             } else if(A[m] < A[m+1]){
                 System.out.println("hej");
                 m=(A[m+1]+j/2);
+
                 continue;
 
             }
